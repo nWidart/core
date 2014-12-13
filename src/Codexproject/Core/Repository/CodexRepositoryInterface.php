@@ -1,6 +1,6 @@
 <?php namespace Codexproject\Core\Repository;
 
-interface InterfaceRepo
+interface CodexRepositoryInterface
 {
 	/**
 	 * Get manual's table of contents file, if it exists.

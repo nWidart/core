@@ -5,7 +5,7 @@ use Illuminate\Filesystem\Filesystem;
 use Codexproject\Core\CacheTrait;
 use Codexproject\Core\Markdown;
 
-class Flat extends AbstractRepo
+class Flat extends AbstractCodexRepository
 {
 	use CacheTrait;
 

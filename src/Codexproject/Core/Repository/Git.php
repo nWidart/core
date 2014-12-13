@@ -7,7 +7,7 @@ use PHPGit\Git as GitClient;
 use Codexproject\Core\CacheTrait;
 use Codexproject\Core\Markdown;
 
-class Git extends AbstractRepo
+class Git extends AbstractCodexRepository
 {
 	use CacheTrait;
 

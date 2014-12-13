@@ -1,6 +1,6 @@
 <?php
 
-use \Codexproject\Core\Repository\InterfaceRepo;
+use \Codexproject\Core\Repository\CodexRepositoryInterface;
 
 class CodexController extends BaseController
 {

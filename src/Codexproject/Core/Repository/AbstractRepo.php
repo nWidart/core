@@ -3,7 +3,7 @@
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem;
 
-abstract class AbstractRepo implements InterfaceRepo
+abstract class AbstractCodexRepository implements CodexRepositoryInterface
 {
 	/**
 	 * The config implementation.
